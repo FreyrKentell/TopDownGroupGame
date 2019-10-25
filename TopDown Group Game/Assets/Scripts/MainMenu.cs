@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
 
    public void loadMazeFun()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Level 1");
         PlayerPrefs.SetInt("lives", lives);
     }
     public void QuitGame()
