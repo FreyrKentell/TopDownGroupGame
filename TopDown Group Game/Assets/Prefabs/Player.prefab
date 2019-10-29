@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: 1346682223532098757}
   - component: {fileID: 1346682223532098756}
   - component: {fileID: 1346682223532098759}
+  - component: {fileID: 6656177291043120674}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -234,3 +235,19 @@ MonoBehaviour:
   healthText: {fileID: 0}
   healthSlider: {fileID: 0}
   lives: 10
+--- !u!114 &6656177291043120674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346682223532098763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3479957dc98ad80419ad38dcc9e50626, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 0}
+  bulletSpeed: 10
+  bulletLifetime: 1
+  shootDelay: 0.1
