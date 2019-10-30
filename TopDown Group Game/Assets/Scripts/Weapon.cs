@@ -5,18 +5,71 @@ using UnityEngine;
 public class Weapon : MonoBehaviour
 {
     public Transform firePoint;
+    public GameObject bulletPrefab;
+    public float bulletSpeed = 10;
+    float lastX = 0;
+    float lastY = 0;
+    Vector2 pushDir;
+    public int ammo;
+    public int maxAmmo = 10;
+    public Canvas reloadCanvas;
+    public int reloadTimer;
+    public int currentTimer;
+    private void Start()
+    {
+        pushDir = new Vector2(1, 0);
+    }
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        //pushDir = Vector2.zero;
+        float x = Input.GetAxisRaw("Horizontal");
+        float y = Input.GetAxisRaw("Vertical");
+        if(x != 0 && lastX == 0)
+        {
+            pushDir = new Vector2(x, 0);
+        }else if (y != 0 && lastY == 0)
+        {
+            pushDir = new Vector2(0, y);
+        }
+        if (Input.GetButtonDown("Fire1") && ammo > 0)
         {
             Shoot();
+            ammo--;
+        }else if (ammo <= 0)
+        {
+            
         }
+        lastX = x;
+        lastY = y;
     }
-
+    
     void Shoot()
     {
+        /*if(Mathf.Abs(x) > Mathf.Abs(y))
+        {
+            if(x > 0)
+            {
+                pushDir.x = 1;
+            }
+            else
+            {
+                pushDir.x = -1;
+            }
+        }else if (Mathf.Abs(x) < Mathf.Abs(y))
+        {
+            if(y > 0)
+            {
+                pushDir.y = 1;
+            }
+            else
+            {
+                pushDir.y = -1;
+            }
+        }*/
         // shooting logic
 
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        bullet.GetComponent<Rigidbody2D>().velocity = pushDir * bulletSpeed;
     }
 }
