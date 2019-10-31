@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Weapon : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class Weapon : MonoBehaviour
     float lastY = 0;
     Vector2 pushDir;
     public int ammo;
+    public float reloadTime = 2.0f;
+    public float reloadCurrent = 0.0f;
     public int maxAmmo = 10;
     public Canvas reloadCanvas;
     public int reloadTimer;
@@ -38,7 +41,15 @@ public class Weapon : MonoBehaviour
             ammo--;
         }else if (ammo <= 0)
         {
-            
+            return;
+        } if (Input.GetButtonDown("Reload"))
+        {
+            reloadCurrent += Time.deltaTime;
+
+            if (reloadCurrent >= 3)
+                reloadCurrent = 0;
+                ammo = maxAmmo;
+          
         }
         lastX = x;
         lastY = y;
@@ -71,5 +82,7 @@ public class Weapon : MonoBehaviour
 
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         bullet.GetComponent<Rigidbody2D>().velocity = pushDir * bulletSpeed;
+        bullet.GetComponent<Animator>().SetFloat("x", pushDir.x);
+        bullet.GetComponent<Animator>().SetFloat("y", pushDir.y);
     }
 }
