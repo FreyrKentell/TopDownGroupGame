@@ -30,7 +30,8 @@ public class EnemySpawner : MonoBehaviour
             if (firstTime == true)
             {
                 GameObject enemy = Instantiate(WaveOne, transform.position, Quaternion.identity);
-            }else if (firstTime ==false)
+                firstTime = false;
+            }else if (firstTime == false)
                 {
                 return;
                 }
