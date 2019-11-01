@@ -95,10 +95,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e95c473655731640a00ac117e984bfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 1346682223532098758, guid: 3e16723482c1afd489ebf2eede4aa288, type: 3}
   speed: 400
-  nextWaypointDis: 3
-  enemyGFX: {fileID: 0}
+  nextWaypointDis: 6.28
+  enemyGFX: {fileID: 8726478341069025729}
 --- !u!1001 &1354350092978533641
 PrefabInstance:
   m_ObjectHideFlags: 0
