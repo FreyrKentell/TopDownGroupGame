@@ -26,7 +26,7 @@ public class EnemySpawner : MonoBehaviour
         Mathf.RoundToInt(currentTimer);
         if (currentTimer >= waveOne)
         {
-            GameObject enemy = Instantiate(WaveOne);
+            GameObject enemy = Instantiate(WaveOne, transform.position, Quaternion.identity);
         } 
     }
 }
