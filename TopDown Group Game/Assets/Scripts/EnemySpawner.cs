@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
+    public bool firstTime = true;
     public float currentTimer = 0.0f;
     public float waveOne = 1.0f;
     public float waveTwo = 2.0f;
@@ -26,7 +27,14 @@ public class EnemySpawner : MonoBehaviour
         Mathf.RoundToInt(currentTimer);
         if (currentTimer >= waveOne)
         {
-            GameObject enemy = Instantiate(WaveOne, transform.position, Quaternion.identity);
+            if (firstTime == true)
+            {
+                GameObject enemy = Instantiate(WaveOne, transform.position, Quaternion.identity);
+            }else if (firstTime ==false)
+                {
+                return;
+                }
+           
         } 
     }
 }
