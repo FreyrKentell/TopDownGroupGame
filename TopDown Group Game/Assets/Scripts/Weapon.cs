@@ -42,7 +42,7 @@ public class Weapon : MonoBehaviour
         }else if (ammo <= 0)
         {
             return;
-        } if (Input.GetButtonDown("Reload"))
+        } if (Input.GetButtonDown("Submit1"))
         {
             reloadCurrent += Time.deltaTime;
 

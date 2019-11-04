@@ -13,7 +13,7 @@ public class EnemyAStar : MonoBehaviour
     bool reachedEndOfPath = false;
     Seeker seeker;
     Rigidbody2D rb;
-    public Transform enemyGFX;
+    
 
 
     // Start is called before the first frame update
@@ -67,15 +67,6 @@ public class EnemyAStar : MonoBehaviour
         if (distance < nextWaypointDis)
         {
             currentWaypoint++;
-        }
-
-        if (force.x>= 0.01f)
-        {
-            enemyGFX.localScale = new Vector3(-1f, 1f, 1f);
-        }
-        else if (force.x <= -0.01f)
-        {
-            enemyGFX.localScale = new Vector3(1f, 1f, 1f);
         }
     }
 }
