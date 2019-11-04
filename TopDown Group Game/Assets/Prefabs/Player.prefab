@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 7571482169573754261}
   m_Layer: 8
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -202,7 +202,9 @@ MonoBehaviour:
   bulletPrefab: {fileID: 6550010546431994201, guid: 8b48a13e4e845e34ea6b51d2d90d350d,
     type: 3}
   bulletSpeed: 10
-  ammo: 10
+  ammo: 999999
+  reloadTime: 2
+  reloadCurrent: 0
   maxAmmo: 10
   reloadCanvas: {fileID: 0}
   reloadTimer: 0
