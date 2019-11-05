@@ -11,10 +11,11 @@ public class EnemyShoot : MonoBehaviour
     public float shootDelay = 0.5f;
     public Transform player;
     public GameObject prefab;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     // Update is called once per frame
