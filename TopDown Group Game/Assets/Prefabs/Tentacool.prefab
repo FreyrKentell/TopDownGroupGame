@@ -151,7 +151,7 @@ MonoBehaviour:
   bulletLifetime: 3
   shootDelay: 1
   player: {fileID: 1346682223532098758, guid: 3e16723482c1afd489ebf2eede4aa288, type: 3}
-  prefab: {fileID: 0}
+  prefab: {fileID: 3143977835321421380, guid: 9e2647b87578e704e9deebe64aab1be3, type: 3}
 --- !u!114 &28213714924320013
 MonoBehaviour:
   m_ObjectHideFlags: 0
