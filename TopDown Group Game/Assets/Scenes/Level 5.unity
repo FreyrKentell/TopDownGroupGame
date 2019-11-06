@@ -44937,7 +44937,7 @@ MonoBehaviour:
   sound:
   - name: Theme
     clip: {fileID: 8300000, guid: 469e751b229f6674080f60ae13d953f3, type: 3}
-    volume: 0.6
+    volume: 0.5
     pitch: 1
     loop: 1
     source: {fileID: 0}
@@ -45049,7 +45049,7 @@ GameObject:
   - component: {fileID: 892645339}
   - component: {fileID: 892645338}
   m_Layer: 0
-  m_Name: New Sprite
+  m_Name: Head of the Snake
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45126,6 +45126,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1346682223532098763, guid: 3e16723482c1afd489ebf2eede4aa288,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1346682223532098758, guid: 3e16723482c1afd489ebf2eede4aa288,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -45190,11 +45195,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 2.763266
-      objectReference: {fileID: 0}
-    - target: {fileID: 1346682223532098763, guid: 3e16723482c1afd489ebf2eede4aa288,
-        type: 3}
-      propertyPath: m_Name
-      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 1346682222733382801, guid: 3e16723482c1afd489ebf2eede4aa288,
         type: 3}

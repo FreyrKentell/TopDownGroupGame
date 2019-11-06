@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2021295417768282377}
   - component: {fileID: 3291383076362505558}
   - component: {fileID: 28213714924320013}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Tentacool
   m_TagString: Enemy
   m_Icon: {fileID: 0}
