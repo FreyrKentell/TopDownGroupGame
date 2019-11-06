@@ -88654,6 +88654,18 @@ EdgeCollider2D:
   - {x: 16.021942, y: 20.115995}
   - {x: 104.77976, y: 20.135466}
   - {x: 104.78943, y: -8.6363735}
+--- !u!114 &1023102427 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6342317330235447866, guid: 5c029b500cb7ef749bd2a4a75df4348d,
+    type: 3}
+  m_PrefabInstance: {fileID: 3279900344497290791}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1098138291
 GameObject:
   m_ObjectHideFlags: 0
@@ -89168,6 +89180,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1346682223532098763, guid: 3e16723482c1afd489ebf2eede4aa288,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1346682223532098763, guid: 3e16723482c1afd489ebf2eede4aa288,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1346682223532098758, guid: 3e16723482c1afd489ebf2eede4aa288,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -89233,21 +89255,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 2.899
       objectReference: {fileID: 0}
-    - target: {fileID: 1346682223532098763, guid: 3e16723482c1afd489ebf2eede4aa288,
-        type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 1346682223532098763, guid: 3e16723482c1afd489ebf2eede4aa288,
-        type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 1346682223532098759, guid: 3e16723482c1afd489ebf2eede4aa288,
         type: 3}
       propertyPath: healthSlider
       value: 
       objectReference: {fileID: 1651832804}
+    - target: {fileID: 1346682223532098759, guid: 3e16723482c1afd489ebf2eede4aa288,
+        type: 3}
+      propertyPath: healthText
+      value: 
+      objectReference: {fileID: 1023102427}
     - target: {fileID: 7571482169573754261, guid: 3e16723482c1afd489ebf2eede4aa288,
         type: 3}
       propertyPath: ammo
@@ -89294,6 +89311,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HUD
+      objectReference: {fileID: 0}
+    - target: {fileID: 6342317330235447866, guid: 5c029b500cb7ef749bd2a4a75df4348d,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 2147712958628583320, guid: 5c029b500cb7ef749bd2a4a75df4348d,
         type: 3}
@@ -89469,11 +89491,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 236.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6342317330235447866, guid: 5c029b500cb7ef749bd2a4a75df4348d,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 7744202362755086361, guid: 5c029b500cb7ef749bd2a4a75df4348d,
         type: 3}
