@@ -18,7 +18,28 @@ public class PlayerHP : MonoBehaviour
         //PlayerPrefs.SetInt("lives", lives);
         lives = PlayerPrefs.GetInt("lives");
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "EnemyBullet")
+            health--;
+        healthText.text = "Health: " + health;
+        healthSlider.value = health;
+        if (health <= 0)
+        {
+            if (lives > 0)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                PlayerPrefs.SetInt("lives", lives - 1);
+            }
+            else
+            {
+                SceneManager.LoadScene("MainMenu");
+            }
+
+
+        }
+    }
+        private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Enemy")
         {
