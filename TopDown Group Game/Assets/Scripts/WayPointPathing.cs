@@ -16,7 +16,7 @@ public class WayPointPathing : MonoBehaviour
 
     // Index of current waypoint from which Enemy walks
     // to the next one
-    private int waypointIndex = 0;
+    public int waypointIndex = 0;
 
     // Use this for initialization
     private void Start()
