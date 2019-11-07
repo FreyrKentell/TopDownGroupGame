@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: 55374c7bd8f80df42b8989b0a3fa318b
+guid: 613a7b3db0cb18541b73d4bdee02ddc5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5485614471918032999
-    second: SpiderEnemy_0
+      213: -1749749422738404186
+    second: Eye Blast_0
   - first:
-      213: 1064196854520928441
-    second: SpiderEnemy_1
+      213: -6745736192560750759
+    second: Eye Blast_1
   - first:
-      213: 7440324186045550512
-    second: SpiderEnemy_2
+      213: 4877590063621837132
+    second: Eye Blast_2
   - first:
-      213: -8866659890866560561
-    second: SpiderEnemy_3
+      213: -6522893129197263668
+    second: Eye Blast_3
   - first:
-      213: 4648855763491278350
-    second: SpiderEnemy_4
+      213: -5044740971533129089
+    second: Eye Blast_4
   - first:
-      213: 2505037703278466436
-    second: SpiderEnemy_5
+      213: -2058493888428478118
+    second: Eye Blast_5
   - first:
-      213: -8733160234601079414
-    second: SpiderEnemy_6
+      213: -6127579142342800839
+    second: Eye Blast_6
   - first:
-      213: -8909984656713685127
-    second: SpiderEnemy_7
+      213: -5988927705342344914
+    second: Eye Blast_7
   - first:
-      213: 6155263782165395741
-    second: SpiderEnemy_8
+      213: 2368730440168317429
+    second: Eye Blast_8
   - first:
-      213: -6165505758373593810
-    second: SpiderEnemy_9
+      213: 1632533546114016223
+    second: Eye Blast_9
   - first:
-      213: 1258759910078509181
-    second: SpiderEnemy_10
+      213: -4011295363478191153
+    second: Eye Blast_10
   - first:
-      213: -7543567217822454937
-    second: SpiderEnemy_11
+      213: 7822879743741306927
+    second: Eye Blast_11
   - first:
-      213: -6642724803260959353
-    second: SpiderEnemy_12
+      213: -1460562476495090879
+    second: Eye Blast_12
   - first:
-      213: -9220288463865752521
-    second: SpiderEnemy_13
+      213: 1922790531646515699
+    second: Eye Blast_13
   - first:
-      213: 231293380202843231
-    second: SpiderEnemy_14
+      213: 1910007735034924946
+    second: Eye Blast_14
   - first:
-      213: 3906234732613663859
-    second: SpiderEnemy_15
+      213: 8134398779979046586
+    second: Eye Blast_15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -84,7 +84,7 @@ TextureImporter:
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -93,7 +93,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 130
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,13 +134,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SpiderEnemy_0
+      name: Eye Blast_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 390
-        width: 130
-        height: 130
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ba56a5616a9f2648abe389a70552459
-      internalID: 5485614471918032999
+      spriteID: f68f5c40d671e8f43a0cc31a9b66a643
+      internalID: -1749749422738404186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpiderEnemy_1
+      name: Eye Blast_1
       rect:
         serializedVersion: 2
-        x: 130
-        y: 390
-        width: 130
-        height: 130
+        x: 128
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,20 +169,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1228502677927d8448fd60a26bb32a86
-      internalID: 1064196854520928441
+      spriteID: 6a4c01735ddaaaf47994b6c6ece6d0df
+      internalID: -6745736192560750759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpiderEnemy_2
+      name: Eye Blast_2
       rect:
         serializedVersion: 2
-        x: 260
-        y: 390
-        width: 130
-        height: 130
+        x: 256
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3098a30e232d65145953faa9f3c673da
-      internalID: 7440324186045550512
+      spriteID: 4d222facb81bee54da859c5fc803d086
+      internalID: 4877590063621837132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpiderEnemy_3
+      name: Eye Blast_3
       rect:
         serializedVersion: 2
-        x: 390
-        y: 390
-        width: 130
-        height: 130
+        x: 384
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,104 +211,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d38a781c8b8a60f4098349a67fa5ac62
-      internalID: -8866659890866560561
+      spriteID: 95be3b489430dce47aeea61e5862720d
+      internalID: -6522893129197263668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpiderEnemy_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 260
-        width: 130
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70610cbe069762e469a3eb9b6566ff77
-      internalID: 4648855763491278350
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpiderEnemy_5
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 260
-        width: 130
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a831ee412b4be0d478b298eaa67f678e
-      internalID: 2505037703278466436
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpiderEnemy_6
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 260
-        width: 130
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57ad457fbc5ad1945938e98c31218e0d
-      internalID: -8733160234601079414
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpiderEnemy_7
-      rect:
-        serializedVersion: 2
-        x: 390
-        y: 260
-        width: 130
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 494f24fce1374aa4494ceec2794a0871
-      internalID: -8909984656713685127
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpiderEnemy_8
+      name: Eye Blast_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 130
-        width: 130
-        height: 130
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,20 +232,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 917a5c027365cfb42a3628c24cc68bd6
-      internalID: 6155263782165395741
+      spriteID: 161cbf46b73b6824281728de33a5cafb
+      internalID: -5044740971533129089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpiderEnemy_9
+      name: Eye Blast_5
       rect:
         serializedVersion: 2
-        x: 130
-        y: 130
-        width: 130
-        height: 130
+        x: 128
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -337,20 +253,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8b51662d3e73584c9740b90667cc1ab
-      internalID: -6165505758373593810
+      spriteID: 9c0b9f57ef1c6814ba26b3f436442052
+      internalID: -2058493888428478118
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpiderEnemy_10
+      name: Eye Blast_6
       rect:
         serializedVersion: 2
-        x: 260
-        y: 130
-        width: 130
-        height: 130
+        x: 256
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,20 +274,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eaf7cd347888a974588cbe7ceb5561f9
-      internalID: 1258759910078509181
+      spriteID: b7d8515d385f27a4d9ed2c4ac08cebeb
+      internalID: -6127579142342800839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpiderEnemy_11
+      name: Eye Blast_7
       rect:
         serializedVersion: 2
-        x: 390
-        y: 130
-        width: 130
-        height: 130
+        x: 384
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -379,20 +295,104 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c59abce84e333754ab1060cdb6d3a02d
-      internalID: -7543567217822454937
+      spriteID: 6adeeb55efa0c764db98b18422366402
+      internalID: -5988927705342344914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpiderEnemy_12
+      name: Eye Blast_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144cf5bf586e036429f9a482708a487c
+      internalID: 2368730440168317429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye Blast_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae109d31fdce964f8a29ccb5e838c43
+      internalID: 1632533546114016223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye Blast_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70995664a27f08b4a8ffc23776e0362a
+      internalID: -4011295363478191153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye Blast_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1af1e4d463c6e4e92f6025bbecd11a
+      internalID: 7822879743741306927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye Blast_12
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 130
-        height: 130
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -400,20 +400,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17877991464a0d641b2b5ef9d475a704
-      internalID: -6642724803260959353
+      spriteID: f1d3edb6f8c854543b4ebc4a89824404
+      internalID: -1460562476495090879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpiderEnemy_13
+      name: Eye Blast_13
       rect:
         serializedVersion: 2
-        x: 130
+        x: 128
         y: 0
-        width: 130
-        height: 130
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -421,20 +421,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eadb0bf47ef8c79408e40688eddf94a0
-      internalID: -9220288463865752521
+      spriteID: bd8a38a370b6fb64886168afb6d073ae
+      internalID: 1922790531646515699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpiderEnemy_14
+      name: Eye Blast_14
       rect:
         serializedVersion: 2
-        x: 260
+        x: 256
         y: 0
-        width: 130
-        height: 130
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -442,20 +442,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e619d83cfef16844892ffcc0881bfa77
-      internalID: 231293380202843231
+      spriteID: af9c802d089a9d5449d7497214f3b9f8
+      internalID: 1910007735034924946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpiderEnemy_15
+      name: Eye Blast_15
       rect:
         serializedVersion: 2
-        x: 390
+        x: 384
         y: 0
-        width: 130
-        height: 130
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -463,8 +463,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10a987aafff33f548bc9c0a46b1060f7
-      internalID: 3906234732613663859
+      spriteID: 4e8672b2b30c03c479516e9a0cef0be5
+      internalID: 8134398779979046586
       vertices: []
       indices: 
       edges: []
@@ -472,7 +472,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: ff301f366c15f8c4db75209b2698188f
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
