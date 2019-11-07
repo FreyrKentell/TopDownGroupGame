@@ -18,9 +18,9 @@ GameObject:
   - component: {fileID: 624328532380759671}
   - component: {fileID: 7655489657769104580}
   - component: {fileID: 624328533407240447}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Tentacle Head 1.1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -228,7 +228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 5
   bulletLifetime: 3
-  shootDelay: 0.5
+  shootDelay: 0.25
   player: {fileID: 1346682223532098758, guid: 3e16723482c1afd489ebf2eede4aa288, type: 3}
   prefab: {fileID: 3143977835321421380, guid: 9e2647b87578e704e9deebe64aab1be3, type: 3}
   firePoint: {fileID: 624328533101489347}
