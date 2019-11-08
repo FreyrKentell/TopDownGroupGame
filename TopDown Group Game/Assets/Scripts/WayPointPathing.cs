@@ -41,7 +41,7 @@ public class WayPointPathing : MonoBehaviour
         // If enemy reached last waypoint then it stops
         if (waypointIndex <= waypoints.Length - 1)
         {
-
+            //Debug.Log("foo");
             // Move Enemy from current waypoint to the next one
             // using MoveTowards method
             transform.position = Vector2.MoveTowards(transform.position,
@@ -51,6 +51,7 @@ public class WayPointPathing : MonoBehaviour
             // If Enemy reaches position of waypoint he walked towards
             // then waypointIndex is increased by 1
             // and Enemy starts to walk to the next waypoint
+            Debug.Log(transform.position == waypoints[waypointIndex].transform.position);
             if (transform.position == waypoints[waypointIndex].transform.position)
             {
                 waypointIndex += 1;
