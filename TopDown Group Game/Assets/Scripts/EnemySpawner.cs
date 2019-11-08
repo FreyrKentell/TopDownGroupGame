@@ -35,47 +35,36 @@ public class EnemySpawner : MonoBehaviour
                 GameObject enemy = Instantiate(WaveOne, transform.position, Quaternion.identity);
                 firstTime1 = false;
             }
-            else if (firstTime1 == false)
-            {
-                return;
-            }
+            
 
         }
         if (currentTimer >= waveTwo)
         {
+         
             if (firstTime2 == true)
             {
-                GameObject enemy = Instantiate(WaveTwo, transform.position, Quaternion.identity);
+                GameObject enemy1 = Instantiate(WaveTwo, transform.position, Quaternion.identity);
                 firstTime2 = false;
             }
         }
-        else if (firstTime2 == false)
-        {
-            return;
-        }
+        
         if (currentTimer >= waveThree)
         {
             if (firstTime3 == true)
             {
-                GameObject enemy = Instantiate(WaveThree, transform.position, Quaternion.identity);
+                GameObject enemy2 = Instantiate(WaveThree, transform.position, Quaternion.identity);
                 firstTime3 = false;
             }
         }
-        else if (firstTime3 == false)
-        {
-            return;
-        }
+        
         if (currentTimer >= waveFour)
         {
             if (firstTime4 == true)
             {
-                GameObject enemy = Instantiate(WaveFour, transform.position, Quaternion.identity);
+                GameObject enemy3 = Instantiate(WaveFour, transform.position, Quaternion.identity);
                 firstTime4 = false;
             }
-            else if (firstTime4 == false)
-            {
-                return;
-            }
+           
 
         }
     }
