@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1346682223532098758, guid: 3e16723482c1afd489ebf2eede4aa288, type: 3}
-  speed: 200
+  speed: 175
   nextWaypointDis: 3
 --- !u!114 &3302238775693457927
 MonoBehaviour:
@@ -211,4 +211,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c87a3a89b493ede45b59f9c55b33a8b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 20
+  health: 10
