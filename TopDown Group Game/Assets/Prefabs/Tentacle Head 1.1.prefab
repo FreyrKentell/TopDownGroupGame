@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 624328532380759668}
   - component: {fileID: 624328532380759667}
-  - component: {fileID: 624328532380759665}
   - component: {fileID: 624328532380759664}
   - component: {fileID: 624328532380759679}
   - component: {fileID: 624328532380759669}
@@ -18,6 +17,7 @@ GameObject:
   - component: {fileID: 624328532380759671}
   - component: {fileID: 7655489657769104580}
   - component: {fileID: 624328533407240447}
+  - component: {fileID: 1171091285270279536}
   m_Layer: 10
   m_Name: Tentacle Head 1.1
   m_TagString: Enemy
@@ -90,19 +90,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &624328532380759665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 624328532380759678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c87a3a89b493ede45b59f9c55b33a8b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 20
 --- !u!114 &624328532380759664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,6 +219,19 @@ MonoBehaviour:
   player: {fileID: 1346682223532098758, guid: 3e16723482c1afd489ebf2eede4aa288, type: 3}
   prefab: {fileID: 7015720604627516312, guid: 9e2647b87578e704e9deebe64aab1be3, type: 3}
   firePoint: {fileID: 624328533101489347}
+--- !u!114 &1171091285270279536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624328532380759678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dda83faee5518214d90c3fd012ee1dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 20
 --- !u!1 &624328533101489346
 GameObject:
   m_ObjectHideFlags: 0
