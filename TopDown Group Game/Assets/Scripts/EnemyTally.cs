@@ -17,4 +17,15 @@ public class EnemyTally : MonoBehaviour
             GameObject enemy = Instantiate(Boss, transform.position, Quaternion.identity);
         }
     }
-}
+    void Update()
+    {
+        GameObject[] gameObjects;
+        gameObjects = GameObject.FindGameObjectsWithTag("Enemy");
+
+        if (gameObjects.Length == 0)
+        {
+            Debug.Log("No game objects are tagged with 'Enemy'");
+            GameObject enemy = Instantiate(Boss, transform.position, Quaternion.identity);
+        }
+    }
+    }
