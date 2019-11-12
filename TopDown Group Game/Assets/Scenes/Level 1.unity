@@ -206,7 +206,7 @@ MonoBehaviour:
   WaveTwo: {fileID: 2215222154089809358, guid: b1f63ad6e5e9df64c9714503dc1d6c57, type: 3}
   WaveThree: {fileID: 2215222154089809358, guid: b1f63ad6e5e9df64c9714503dc1d6c57,
     type: 3}
-  WaveFour: {fileID: 6166131707002876276, guid: 8910235821cf44a49aed7a9d9b183ecc,
+  WaveFour: {fileID: 2142801988102765360, guid: b230e6bbebf829740a2698fdd72baba1,
     type: 3}
 --- !u!4 &202102088
 Transform:
@@ -89329,6 +89329,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1346682223532098763, guid: 3e16723482c1afd489ebf2eede4aa288,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1346682223532098763, guid: 3e16723482c1afd489ebf2eede4aa288,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1346682223532098758, guid: 3e16723482c1afd489ebf2eede4aa288,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -89393,16 +89403,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 2.899
-      objectReference: {fileID: 0}
-    - target: {fileID: 1346682223532098763, guid: 3e16723482c1afd489ebf2eede4aa288,
-        type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 1346682223532098763, guid: 3e16723482c1afd489ebf2eede4aa288,
-        type: 3}
-      propertyPath: m_TagString
-      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 1346682223532098759, guid: 3e16723482c1afd489ebf2eede4aa288,
         type: 3}
