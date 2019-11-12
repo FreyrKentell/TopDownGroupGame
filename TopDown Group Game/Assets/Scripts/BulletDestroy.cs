@@ -6,6 +6,7 @@ public class BulletDestroy : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log(collision.gameObject.name);
         Destroy(gameObject);
     }
 }

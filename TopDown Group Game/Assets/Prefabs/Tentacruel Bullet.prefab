@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -1023475724973365839}
   - component: {fileID: -5536133047130670726}
   - component: {fileID: 9103960585226082656}
-  - component: {fileID: -98807417233901342}
+  - component: {fileID: 8274508177294017513}
   m_Layer: 11
   m_Name: Tentacruel Bullet
   m_TagString: EnemyBullet
@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7015720604627516312}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 73.0968, y: 7.4690466, z: -7524.6064}
+  m_LocalPosition: {x: 73.0968, y: 7.4690466, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -135,13 +135,13 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.08220291, y: -0.016440392}
   m_Size: {x: 0.8355942, y: 0.8355942}
   m_Direction: 0
---- !u!114 &-98807417233901342
+--- !u!114 &8274508177294017513
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

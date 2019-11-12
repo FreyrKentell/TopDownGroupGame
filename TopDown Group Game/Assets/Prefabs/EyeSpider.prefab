@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1346682223532098758, guid: 3e16723482c1afd489ebf2eede4aa288, type: 3}
-  speed: 200
+  speed: 150
   nextWaypointDis: 3
 --- !u!114 &-6154649900663553136
 MonoBehaviour:
@@ -212,7 +212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c87a3a89b493ede45b59f9c55b33a8b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 20
+  health: 8
 --- !u!114 &-6475335125413379926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -227,6 +227,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 5
   bulletLifetime: 3
-  shootDelay: 0.5
+  shootDelay: 2
   player: {fileID: 1346682223532098758, guid: 3e16723482c1afd489ebf2eede4aa288, type: 3}
   prefab: {fileID: 7015720604627516312, guid: 9e2647b87578e704e9deebe64aab1be3, type: 3}

@@ -9,14 +9,13 @@ public class PlayerHP : MonoBehaviour
     public int health = 10;
     public Text healthText;
     public Slider healthSlider;
-    public int lives = 10;
+  
     void Start()
     {
         healthText.text = "Health: " + health;
         healthSlider.maxValue = health;
         healthSlider.value = health;
-        //PlayerPrefs.SetInt("lives", lives);
-        lives = PlayerPrefs.GetInt("lives");
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -26,15 +25,9 @@ public class PlayerHP : MonoBehaviour
         healthSlider.value = health;
         if (health <= 0)
         {
-            if (lives > 0)
-            {
+           
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-                PlayerPrefs.SetInt("lives", lives - 1);
-            }
-            else
-            {
-                SceneManager.LoadScene("MainMenu");
-            }
+                
 
 
         }
@@ -48,18 +41,12 @@ public class PlayerHP : MonoBehaviour
             healthSlider.value = health;
             if(health <= 0)
             {
-                if(lives > 0)
-                {
+                
+            
                      SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-                    PlayerPrefs.SetInt("lives", lives - 1);
-                }
-                else
-                {
-                    SceneManager.LoadScene("MainMenu");
-                }
-               
-
+                    
             }
+               
         }
     }
 }

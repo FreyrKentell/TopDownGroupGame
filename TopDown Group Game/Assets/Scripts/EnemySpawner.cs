@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    public bool firstTime = true;
+    public bool firstTime1 = true;
+    public bool firstTime2 = true;
+    public bool firstTime3 = true;
+    public bool firstTime4 = true;
     public float currentTimer = 0.0f;
     public float waveOne = 1.0f;
     public float waveTwo = 2.0f;
@@ -17,7 +20,7 @@ public class EnemySpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -27,15 +30,42 @@ public class EnemySpawner : MonoBehaviour
         Mathf.RoundToInt(currentTimer);
         if (currentTimer >= waveOne)
         {
-            if (firstTime == true)
+            if (firstTime1 == true)
             {
                 GameObject enemy = Instantiate(WaveOne, transform.position, Quaternion.identity);
-                firstTime = false;
-            }else if (firstTime == false)
-                {
-                return;
-                }
+                firstTime1 = false;
+            }
+            
+
+        }
+        if (currentTimer >= waveTwo)
+        {
+         
+            if (firstTime2 == true)
+            {
+                GameObject enemy1 = Instantiate(WaveTwo, transform.position, Quaternion.identity);
+                firstTime2 = false;
+            }
+        }
+        
+        if (currentTimer >= waveThree)
+        {
+            if (firstTime3 == true)
+            {
+                GameObject enemy2 = Instantiate(WaveThree, transform.position, Quaternion.identity);
+                firstTime3 = false;
+            }
+        }
+        
+        if (currentTimer >= waveFour)
+        {
+            if (firstTime4 == true)
+            {
+                GameObject enemy3 = Instantiate(WaveFour, transform.position, Quaternion.identity);
+                firstTime4 = false;
+            }
            
-        } 
+
+        }
     }
 }
