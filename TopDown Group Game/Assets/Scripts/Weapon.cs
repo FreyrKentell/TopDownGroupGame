@@ -38,18 +38,7 @@ public class Weapon : MonoBehaviour
         if (Input.GetButtonDown("Fire1") && ammo > 0)
         {
             Shoot();
-            ammo--;
-        }else if (ammo <= 0)
-        {
-            return;
-        } if (Input.GetButtonDown("Submit1"))
-        {
-            reloadCurrent += Time.deltaTime;
-
-            if (reloadCurrent >= 3)
-                reloadCurrent = 0;
-                ammo = maxAmmo;
-          
+            
         }
         lastX = x;
         lastY = y;

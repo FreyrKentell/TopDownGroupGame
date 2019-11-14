@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 4897282947623826540}
   - component: {fileID: 768750291034588031}
   - component: {fileID: 7571482169573754261}
+  - component: {fileID: 3037753092881459744}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -154,7 +155,6 @@ MonoBehaviour:
   health: 10
   healthText: {fileID: 0}
   healthSlider: {fileID: 0}
-  lives: 10
 --- !u!95 &4897282947623826540
 Animator:
   serializedVersion: 3
@@ -209,6 +209,21 @@ MonoBehaviour:
   reloadCanvas: {fileID: 0}
   reloadTimer: 0
   currentTimer: 0
+--- !u!111 &3037753092881459744
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346682223532098763}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &7898518394123926172
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,7 +248,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7898518394123926172}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.13, y: 0.014, z: -0.1565426}
+  m_LocalPosition: {x: -0.15, y: 0.014, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1346682223532098758}
