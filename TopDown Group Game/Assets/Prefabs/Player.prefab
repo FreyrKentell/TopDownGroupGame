@@ -33,7 +33,7 @@ Transform:
   m_GameObject: {fileID: 1346682223532098763}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 8315589014152423566}
   m_Father: {fileID: 0}
@@ -154,7 +154,6 @@ MonoBehaviour:
   health: 10
   healthText: {fileID: 0}
   healthSlider: {fileID: 0}
-  lives: 10
 --- !u!95 &4897282947623826540
 Animator:
   serializedVersion: 3

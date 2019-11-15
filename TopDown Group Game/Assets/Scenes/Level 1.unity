@@ -89397,12 +89397,12 @@ PrefabInstance:
     - target: {fileID: 1346682223532098758, guid: 3e16723482c1afd489ebf2eede4aa288,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.532
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1346682223532098758, guid: 3e16723482c1afd489ebf2eede4aa288,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.899
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1346682223532098759, guid: 3e16723482c1afd489ebf2eede4aa288,
         type: 3}
@@ -89460,11 +89460,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HUD
-      objectReference: {fileID: 0}
-    - target: {fileID: 6342317330235447866, guid: 5c029b500cb7ef749bd2a4a75df4348d,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 2147712958628583320, guid: 5c029b500cb7ef749bd2a4a75df4348d,
         type: 3}
@@ -89605,6 +89600,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 480.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6342317330235447866, guid: 5c029b500cb7ef749bd2a4a75df4348d,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 6888593174292832762, guid: 5c029b500cb7ef749bd2a4a75df4348d,
         type: 3}
