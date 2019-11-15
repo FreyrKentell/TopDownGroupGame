@@ -5,8 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class Portal1 : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D Collision)
+    private void OnTriggerEnter2D(Collider2D Collision)
     {
+    if (Collision.gameObject.tag == "Player")
+    
         SceneManager.LoadScene("Level 1");
+    
+
     }
+    
 }
